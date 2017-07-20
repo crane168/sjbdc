@@ -1,0 +1,13 @@
+<scroll-view scroll-y="true" class="core-word">
+  <!-- button[type=default size=defaultSize ]{{{typeWrodName}}第$组：20个}*17-->
+  <view class="view-container">
+    <block wx:key="{{this}}" wx:for="{{list}}">
+      <button type="default" 
+              size="defaultSize" 
+              data-type = "{{item.type}}"
+              data-group-num = "{{item.orderNum}}"
+              bindtap="goCardTap">第{{index+1}}张：{{item.wordNum}}个
+     </button>
+    </block>
+  </view>
+</scroll-view>

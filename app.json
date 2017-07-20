@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/card/card",
+    "pages/train/train",
+    "pages/record/record"
+  ],
+  "window":{
+    "navigationBarBackgroundColor" : "#2D2D2D",
+    "navigationBarTitleText": "手机背单词-演示版",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar":{
+      "color": "#A8A8A9",
+      "backgroundColor": "#252526",
+      "selectedColor": "#D79F57",
+      "list":[
+        {
+          "pagePath" : "pages/index/index",
+          "iconPath" : "images/home-no-selected.png",
+          "selectedIconPath" : "images/home.png",
+          "text": "首页"
+        },
+         {
+          "pagePath" : "pages/train/train",
+          "iconPath" : "images/open-not.png",
+          "selectedIconPath" : "images/open-open.png",
+          "text": "今晚特训"
+        },
+        {
+          "pagePath":"pages/record/record",
+          "iconPath" : "images/help-no-selected.png",
+          "selectedIconPath" : "images/help-selected.png",
+          "text" : "新手上路"
+        }
+      ]
+  }
+}

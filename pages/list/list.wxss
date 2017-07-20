@@ -1,0 +1,11 @@
+scroll-view{
+  background: -webkit-linear-gradient(top, #B08D11 0%,#DE3C18 100%);
+  background: linear-gradient(to top,  #000000 0%,#ffffff 100%);
+}
+scroll-view .view-container{
+  padding: 5px 10px;
+}
+.core-word button{
+  margin-top: 1px;
+  font-size: 22px;
+}

@@ -1,0 +1,26 @@
+page{
+  padding-top: 40px;
+  background: -webkit-linear-gradient(top, #B08D11 0%,#DE3C18 100%);
+  background: linear-gradient(to top,  #000000 0%,#ffffff 100%);
+  background-size: cover;
+}
+.word-group-btn{
+  margin-top: 20px;
+  padding: 0 15px;
+}
+.word-group-btn button{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size:28px;
+  background: rgba(0, 0, 0, .8);
+  position: relative;
+}
+
+.word-group-btn text{
+  position: absolute;
+  font-size:16px;
+  right:20px;
+  top:18px;
+}
+
+

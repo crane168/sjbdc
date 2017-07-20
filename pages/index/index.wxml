@@ -1,0 +1,20 @@
+<view >
+    <view class="word-group-btn">
+        <button data-type="1" data-group-total="65" type="primary" size="defaultSize" bindtap="goNavList" class="c1">
+                英语基础词汇 <text>65张</text>
+        </button>
+        
+        <button data-type="2" data-group-total="17" type="primary" size="defaultSize" bindtap="goNavList" class="c2">
+                英语核心词汇 <text>17张</text>
+        </button>
+        <button data-type="3" data-group-total="15" type="primary" size="defaultSize" bindtap="goNavList" class="c3">
+                英语词组 <text>15张</text>
+        </button>
+        <button data-type="4" data-group-total="15" type="primary" size="defaultSize" bindtap="goNavList" class="c4">
+                英语高难词汇 <text>15张</text>
+        </button>
+        <button data-type="5" data-group-total="5" type="primary" size="defaultSize" bindtap="goNavList" class="c5">
+                英语易混词汇 <text>11张</text>
+        </button>
+    </view>
+</view>

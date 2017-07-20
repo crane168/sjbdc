@@ -1,0 +1,28 @@
+page{
+  background:#464647 !important;
+}
+.title{
+  font-size:22px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  background:#252526;
+  color:#fff;
+}
+.introl{
+  padding:20px;
+  background:#3F3F47;
+  color:#7DBCD6;
+  line-height: 24px;
+}
+.cn-en-image{
+  height: 600px;
+  width:100%;
+}
+.introl-p{
+  padding:5px 20px;
+  color:#7DBCD6;
+}
+.space-two-word{
+  text-indent: 2em;
+}

@@ -1,0 +1,73 @@
+/*定义颜色*/
+
+/*英语基础词汇c1*/
+.c1{
+  color:#79CB88 !important;
+}
+.bg1{
+  background:#79CB88 !important;
+}
+/*英语核心词汇2*/
+.c2{
+  color:#ACDEBB !important;
+}
+.bg2{
+  color:#ACDEBB !important;
+}
+/*英语词组c3*/
+.c3{
+  color:#DCD553 !important;
+}
+.bg3{
+  background:#DCD553 !important;
+}
+/*英语高难词汇c4*/
+.c4{
+  color:#A6E2ED !important;
+}
+.bg4{
+  background:#A6E2ED !important;
+}
+/*英语易混词汇5*/
+.c5{
+  color:#D4ACB4 !important;
+}
+.bg5{
+  background:#D4ACB4 !important;
+}
+page{
+  background:#F0F0F0;
+}
+.container{
+  height:400px;
+}
+.type-code{
+  padding: 0 40px;
+}
+.type-code.top{
+  padding:0 20px;
+}
+
+
+
+.no-list-word{
+  text-align: center;
+
+  font-size: 28px;
+  padding-top:100px;
+  padding-bottom: 100px;
+  line-height: 40px;
+}
+
+.tip-title{
+  color:#B12614;
+}
+.tip-num{
+  color:#7AD137;
+}
+.tip-time{
+    color:#FFCA28;
+}
+.tip-fz38{
+  font-size:38px;
+}

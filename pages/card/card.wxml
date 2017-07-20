@@ -1,0 +1,21 @@
+<scroll-view scroll-y="true">
+  <view class="type-code top">
+    <button  style="display:none;" class="switch-btn" type="primary" size="defaultSize" bindtap="switchCardTap">切换下一张</button>
+    <button class="switch-btn mod-btn" type="primary" size="defaultSize" bindtap="switchCardTap">{{showBtnTitle}}</button>
+  </view>
+  <block wx:key="this" wx:for="{{list_words}}">
+    <view class="list-view">
+      <view bindtap="toggleOneTap" data-id="{{item.id}}" class="list-view-item word-en {{item.fz18}}" style="display:{{item.isShowEn}}">{{item.word_en}}</view>
+      <view bindtap="toggleOneEnTap" data-id="{{item.id}}" class="list-view-item word-cn {{item.fzCnSize}}" style="display:{{item.isShowCn}};">{{item.word_cn}}</view>
+    </view>
+  </block>
+  <view wx:if="{{list_words.length == 0}}" class="no-list-word">
+    <view class="tip-title">{{titleName}}</view>
+    <view class="tip-num">{{'第'+query.groupnum+'张'}}</view>
+    <view class="tip-time">单词即将开放</view>
+    <view class="tip-title tip-fz38">...</view>
+  </view>
+  <view class="type-code">
+    <button class="switch-btn" type="default" size="defaultSize" bindtap="nextTap">下一张</button>
+  </view>
+</scroll-view>

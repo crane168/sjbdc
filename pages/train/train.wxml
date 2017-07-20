@@ -1,0 +1,55 @@
+<view>
+  <view>
+      <view class="topic">
+        <text class="title">今晚特训 {{topic.train_day}}</text>
+        <view class="introl">
+            <view class="no-list-word">
+              <view class="tip-title">{{topic.type_name}}</view>
+              <view class="tip-num">{{'第'+topic.group_num+'张'}} {{topic.word_num}}个词汇</view>
+              <view class="tip-title tip-fz38">{{topic.start_time}}</view>
+            </view>
+            <button type="warn" size="defaultSize" bindtap="gotoPreviewTrainTap">进入预准备</button>
+        </view>
+      </view>
+  </view>
+  <view class="today-todo">
+    <view class="introl space-two-word">
+        今晚特训即每日晚上22:30半，通过微信群集中背单词。训练单词听、说、读、写的一种模式。
+      </view>
+      <text class="title">训练听</text>
+      <view class="introl">
+          听：在微信群里，特训时间，大家只背指定的20个单词。一人读，你听了第一遍，第二人读，你听了第二遍，第三人读，你听了第三遍...第n人读，你听n遍。真人真声，不同的声音，不同的读法，同样的单词，你听了n遍，如此这样重复，你没有理由背不会。
+      </view>
+    </view>
+    <view>
+      <text class="title">训练说</text>
+      <view class="introl">
+          说：在微信群里，特训时间，指定的20个单词，大家都用自己的声音读出来，说出来。20个单词，59秒就能读完一遍，神奇的59秒。微信上的真声，你听我的，我听你的，不在乎对错，开口就是进步。先做到敢说，再会说，再自信说。
+      </view>
+    </view>
+    <view>
+      <text class="title">训练读</text>
+        <view class="introl">
+          说：在微信群里，特训内容，都是提前告知的，方便你可以在地铁上，公交上，厕所里，路上，花1到2分钟读一读，晚上会发挥得更好。
+        </view>
+    </view>
+
+    <view>
+      <text class="title">训练写</text>
+        <view class="introl">
+          说：打开微信小程序，拿出纸和笔，或者电脑也行，抄写写一遍，或者电脑打一遍，20个单词，很快就打完。
+        </view>
+    </view>
+
+    <view>
+        <text class="title">终极目的</text>
+        <view class="introl">早日把五大模块单词，即基础单词、核心单词、词组、高难词汇、易混单词，烂熟于心，背得滚瓜烂熟。</view>
+      </view>
+      <view wx:if="{{topic.appy_for_show == 1}}">
+        <view class="introl">
+            <button type="primary" size="defaultSize" bindtap="applyForTap">{{topic.btn_apply_for_name}}</button>
+        </view>
+      </view>
+    </view>
+  <view>
+</view>
